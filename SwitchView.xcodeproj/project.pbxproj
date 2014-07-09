@@ -19,6 +19,8 @@
 		BA0C57BD196CE9A300B7503C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0C57A5196CE9A300B7503C /* UIKit.framework */; };
 		BA0C57C5196CE9A300B7503C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA0C57C3196CE9A300B7503C /* InfoPlist.strings */; };
 		BA0C57C7196CE9A300B7503C /* SwitchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0C57C6196CE9A300B7503C /* SwitchViewTests.m */; };
+		BA0C57D2196D08B200B7503C /* SlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0C57D1196D08B200B7503C /* SlideSwitchView.m */; };
+		BA0C57D5196D090F00B7503C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0C57D4196D090F00B7503C /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		BA0C57C2196CE9A300B7503C /* SwitchViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchViewTests-Info.plist"; sourceTree = "<group>"; };
 		BA0C57C4196CE9A300B7503C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA0C57C6196CE9A300B7503C /* SwitchViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchViewTests.m; sourceTree = "<group>"; };
+		BA0C57D0196D08B200B7503C /* SlideSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideSwitchView.h; sourceTree = "<group>"; };
+		BA0C57D1196D08B200B7503C /* SlideSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideSwitchView.m; sourceTree = "<group>"; };
+		BA0C57D3196D090F00B7503C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BA0C57D4196D090F00B7503C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,10 @@
 				BA0C57B1196CE9A300B7503C /* AppDelegate.m */,
 				BA0C57B3196CE9A300B7503C /* Images.xcassets */,
 				BA0C57A8196CE9A300B7503C /* Supporting Files */,
+				BA0C57D0196D08B200B7503C /* SlideSwitchView.h */,
+				BA0C57D1196D08B200B7503C /* SlideSwitchView.m */,
+				BA0C57D3196D090F00B7503C /* BaseViewController.h */,
+				BA0C57D4196D090F00B7503C /* BaseViewController.m */,
 			);
 			path = SwitchView;
 			sourceTree = "<group>";
@@ -240,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA0C57B2196CE9A300B7503C /* AppDelegate.m in Sources */,
+				BA0C57D5196D090F00B7503C /* BaseViewController.m in Sources */,
+				BA0C57D2196D08B200B7503C /* SlideSwitchView.m in Sources */,
 				BA0C57AE196CE9A300B7503C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
