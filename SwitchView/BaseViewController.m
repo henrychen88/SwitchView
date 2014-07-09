@@ -19,6 +19,11 @@
     [super viewDidLoad];
     
     self.title = @"NetEase";
+    
+    SlideSwitchView *slideSwitchView = [[SlideSwitchView alloc]initWithFrame:CGRectMake(20, 100, 280, 40)];
+    slideSwitchView.titles = @[@"头条", @"体育界", @"汽车", @"科技", @"轻松一刻", @"杭州", @"游戏", @"时尚", @"财经", @"推荐", @"军事", @"娱乐", @"世界杯"];
+    
+    [self.view addSubview:slideSwitchView];
 }
 
 - (void)didReceiveMemoryWarning
