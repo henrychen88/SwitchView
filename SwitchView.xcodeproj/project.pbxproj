@@ -22,6 +22,8 @@
 		BA0C57D2196D08B200B7503C /* SlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0C57D1196D08B200B7503C /* SlideSwitchView.m */; };
 		BA0C57D5196D090F00B7503C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0C57D4196D090F00B7503C /* BaseViewController.m */; };
 		BA0C57D7196D197A00B7503C /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0C57D6196D197A00B7503C /* selected@2x.png */; };
+		BA199E3C196F71AE00AFF3FF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA199E3B196F71AE00AFF3FF /* TableViewController.m */; };
+		BA199E3F196FCB8E00AFF3FF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA199E3E196FCB8E00AFF3FF /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		BA0C57D3196D090F00B7503C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		BA0C57D4196D090F00B7503C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		BA0C57D6196D197A00B7503C /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
+		BA199E3A196F71AE00AFF3FF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		BA199E3B196F71AE00AFF3FF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		BA199E3D196FCB8E00AFF3FF /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BA199E3E196FCB8E00AFF3FF /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,10 @@
 				BA0C57D1196D08B200B7503C /* SlideSwitchView.m */,
 				BA0C57D3196D090F00B7503C /* BaseViewController.h */,
 				BA0C57D4196D090F00B7503C /* BaseViewController.m */,
+				BA199E3A196F71AE00AFF3FF /* TableViewController.h */,
+				BA199E3B196F71AE00AFF3FF /* TableViewController.m */,
+				BA199E3D196FCB8E00AFF3FF /* DetailViewController.h */,
+				BA199E3E196FCB8E00AFF3FF /* DetailViewController.m */,
 			);
 			path = SwitchView;
 			sourceTree = "<group>";
@@ -256,7 +266,9 @@
 				BA0C57B2196CE9A300B7503C /* AppDelegate.m in Sources */,
 				BA0C57D5196D090F00B7503C /* BaseViewController.m in Sources */,
 				BA0C57D2196D08B200B7503C /* SlideSwitchView.m in Sources */,
+				BA199E3C196F71AE00AFF3FF /* TableViewController.m in Sources */,
 				BA0C57AE196CE9A300B7503C /* main.m in Sources */,
+				BA199E3F196FCB8E00AFF3FF /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +465,7 @@
 				BA0C57CC196CE9A300B7503C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA0C57CD196CE9A300B7503C /* Build configuration list for PBXNativeTarget "SwitchViewTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +474,7 @@
 				BA0C57CF196CE9A300B7503C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
